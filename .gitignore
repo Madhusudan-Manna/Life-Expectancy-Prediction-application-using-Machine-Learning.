@@ -1,0 +1,38 @@
+# Python virtual environments
+.venv/
+venv/
+myenv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Streamlit cache
+.streamlit/secrets.toml
+.streamlit/.streamlitrc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+best_life_expectancy_model.pkl
+*.csv
+*.xlsx
+*.xls
+
+# Dependencies
+dist/
+build/
+*.egg-info/
